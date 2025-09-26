@@ -1,0 +1,134 @@
+* {
+    font-family: apple-system,BlinkMacSystemFont,"Segoe UI",Roboto, "Helvetica Neue", Arial, "Noto Sans" ,sans-serif;
+}
+
+p{
+    font-size: 18px;
+}
+
+.container header{
+    display: flex;
+    flex-direction: column;
+    background-color: #63B3ED;
+    align-items: center;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 0.25fr;
+    grid-template-rows:  0.4fr 1fr 0.1fr;
+    gap: 20px;
+    
+    
+}
+
+
+
+.HeaderText{
+    color :#FFF
+}
+
+#HeadOne{
+    font-size: 36px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.BlogTitle{
+    font-size: 32px;
+    color : #48BB78;
+}
+
+#author-image{
+
+    justify-content: flex-start;
+}
+
+.container img{
+    border-radius: 100%;
+}
+
+.DateText{
+    font-style: italic;
+    color : #718096;
+}
+article img{
+    height: 200px;
+    width: 200px;
+}
+
+
+
+.SideHeader{
+    
+    font-weight: 500;
+    font-size: 2em;
+    color:#48BB78;
+    font-family:  Georgia, 'Times New Roman',Times, serif;
+    /* text-decoration: underline; */
+}
+
+#AboutHeader{
+    font-weight: 500;
+    font-size: 2em;
+    color: black;
+    font-family:  Georgia, 'Times New Roman',Times, serif;
+    /* text-decoration: underline; */
+}
+
+.SideDiv ul, a {
+    list-style: none;
+    text-decoration: none;
+    color: #4299E1;
+}
+.SideDiv {
+    
+    justify-items: left;
+}
+
+#AboutDiv{
+    background-color: #E2E8F0;
+    padding: 15px;
+}
+
+
+footer{
+    background-color: #2C5282;
+}
+
+
+#FooterText{
+    color: white;
+  
+}
+
+
+
+#MainBox{
+    grid-column: 1;
+    grid-row: 2;
+    padding: 5%;
+}
+#SidebarBox{
+    background-color: aquamarine;
+    grid-column: 2;
+    grid-row:2;
+    
+}
+
+#HeaderBox{
+    grid-column: 1 / span 2;
+    grid-row: 1;
+   margin: 0;
+}
+#FooterBox{
+    grid-column: 1 / span 2;
+    grid-row:3;
+    
+}
+
+#FirstArticle img{
+    float: left;
+}
+#SecondArticle img{
+    float: left;
+}
+
